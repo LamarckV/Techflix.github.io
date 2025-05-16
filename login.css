@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/07/44/16/51/360_F_744165101_1x0XyvBYMLpZhc6nPUMPHspt5ICN2vxU.jpg) ;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.form-container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container{
+    color: rgb(180, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    left: 385px;
+    width: 700px;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.botao{
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: #014603;
+    color: white;
+    cursor: pointer;
+}
+.login{
+    border-radius: 4px;
+    background-color: black;
+    color: lightgray;
+}
+.senha{
+    border-radius: 4px;
+    background-color: black;
+    color: lightgray;
+}
+footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
+}

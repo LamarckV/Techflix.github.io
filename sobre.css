@@ -1,0 +1,25 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.container-article{
+    justify-self: center;
+    width: 700px;
+    background-color: rgb(19, 17, 17);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: justify;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.voltar :hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.voltar{
+    position: relative;
+    margin-right: 30px;
+}
